@@ -5,9 +5,9 @@ Objective: Create a 4x4 pixel grid that will change from white to black on user 
 Goal: Basic Functionality
 
 1: Create necessary files including
-a: Drawing Page
-b: Pixel Component
-c: Library page
+DONE a: Drawing Page
+DONE b: Pixel Component
+DONE c: Library page
 
 2: Create the Drawing Page
 a: Drawing Canvas is a Loop of 16 grids, into 4x4 frame

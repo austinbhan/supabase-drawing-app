@@ -1,7 +1,9 @@
+import styles from '../app.css';
+
 export default function Pixel() {
   return (
-    <div>
-      <h1>This is one individual grid</h1>
+    <div className={styles.pixel}>
+      <p>x</p>
     </div>
   );
 }
