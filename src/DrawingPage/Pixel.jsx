@@ -1,9 +1,16 @@
-import styles from '../app.css';
+import { useState } from 'react';
 
-export default function Pixel() {
+export default function Pixel({ id }) {
+
+  const [color, setColor] = useState('pink');
+
+  function handleColor() {
+    setColor('grey');
+  }
+
   return (
-    <div className={styles.pixel}>
-      <p>x</p>
+    <div style={{ background: color }} onClick={handleColor}>
+      <p>{id}</p>
     </div>
   );
 }
